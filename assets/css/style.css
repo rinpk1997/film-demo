@@ -169,7 +169,109 @@ html {
     background-color: #000;
 }
 
+#content .sub-member-name {
+    font-size: 16px;
+    padding: 15px;
+    color: #fff;
+    font-style: italic;
+}
+
+#about .film-sub-heading {
+    text-align: center;
+    font-style: italic;
+    font-size: 15px;
+    opacity: 0.6;
+}
+
+#about .author-name {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Courier New', Courier, monospace;
+    color: #7f3f00;
+    font-size: 32px;
+    padding: 24px 0;
+}
+
+#about .right-info {
+    border-left: #7f3f00 solid 5px;
+}
+
+#about .info-content i[class*="ti-"] {
+    display: inline-block;
+    width: 20px;
+    font-size: 15px;
+}
+
+#about .info-content {
+    padding-bottom: 8px;
+}
+
+#about .info-heading {
+    padding: 16px 0;
+    font-size: 24px;
+}
+
+#about .main-skill {
+    font-style: italic;
+    color: #696969;
+    text-decoration: underline;
+    padding-bottom: 8px;
+    font-size: 15px;
+}
+
+#about .sub-skill > li {
+    font-size: 15px;
+    padding: 0 16px 8px;
+    list-style-type: none;
+}
+
+#about .author-edu {
+    font-size: 15px;
+    padding-bottom: 8px;
+}
+
+#about .uni-name {
+    font-weight: bold;
+    font-style: italic;
+}
+
+#about .company-name {
+    font-size: 15px;
+    padding-bottom: 8px;
+    font-style: italic;
+}
+
+#about .time {
+    font-size: 14px;
+    font-style: italic;
+    opacity: 0.6;
+    padding-bottom: 8px;
+}
+
+#about .position {
+    font-size: 15px;
+    padding-bottom: 8px;
+}
 
 #footer {
+    padding: 64px 16px;
+    text-align: center;
+}
 
+#footer .socials-list {
+    font-size: 24px;
+}
+
+#footer .socials-list a {
+    text-decoration: none;
+    color: #757575;
+}
+
+#footer .socials-list a:hover {
+    opacity: 0.6;
+}
+
+#footer .footer-content {
+    font-size: 15px;
+    text-align: center;
 }
